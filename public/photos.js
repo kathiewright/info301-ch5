@@ -24,7 +24,7 @@ function rightArrow() {
       } else {
          photoOrder[i] += 1;
       }
-      populateFigures();
+     // populateFigures();
    }
 }
 
@@ -36,7 +36,7 @@ function leftArrow() {
       } else {
          photoOrder[i] -= 1;
       }
-      populateFigures();
+      // populateFigures();
    }
 }
 
@@ -47,8 +47,8 @@ function zoomFig() {
 
 /* create event listeners and populate image elements */
 function setUpPage() {
-   createEventListeners();
-   populateFigures();
+ //  createEventListeners();
+ //  populateFigures();
 }
 
 /* run setUpPage() function when page finishes loading */
